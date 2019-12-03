@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="button_height">55dp</dimen>
+    <dimen name="padding_activityLogin">20dp</dimen>
+    <dimen name="size_title_login">40sp</dimen>
+    <dimen name="marginTop_edt_username">10dp</dimen>
+    <dimen name="marginTop_edt_password">10dp</dimen>
+    <dimen name="marginTop_btn_login">20dp</dimen>
+    <dimen name="marginTop_btn_createAccount">20dp</dimen>
+    <dimen name="padding_activityWelcome">20dp</dimen>
+    <dimen name="size_welcome">40sp</dimen>
+    <dimen name="marginTop_btn_singOut">10dp</dimen>
+    <dimen name="size_txt_username">25sp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "762641464474",
+    "firebase_url": "https://login-ceb3b.firebaseio.com",
+    "project_id": "login-ceb3b",
+    "storage_bucket": "login-ceb3b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:762641464474:android:058db77dbb1767354d3323",
+        "android_client_info": {
+          "package_name": "com.gerarje.login"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "762641464474-16rd8de22flqdrkp9f5p3i3i6ukrehj6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5xfec-cXkliWAnhz40JAjYVdYQkr9zOI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "762641464474-16rd8de22flqdrkp9f5p3i3i6ukrehj6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

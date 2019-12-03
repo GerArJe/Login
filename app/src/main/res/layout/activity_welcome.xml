@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.WelcomeActivity"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/padding_activityWelcome">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome"
+        android:gravity="center"
+        android:textSize="@dimen/size_welcome"
+        android:textColor="@color/primary_text"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/txt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:text="username"
+        android:gravity="center"
+        android:textSize="@dimen/size_txt_username"
+        android:textColor="@color/secondary_text"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:background="@drawable/btn_custom"
+        android:layout_marginTop="@dimen/marginTop_btn_singOut"
+        android:text="@string/singOut"
+        android:textColor="@color/icons"
+        android:onClick="singOut"/>
+
+</LinearLayout>

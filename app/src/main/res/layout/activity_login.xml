@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.LoginActivity"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    android:gravity="center"
+    android:padding="@dimen/padding_activityLogin">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/title_login"
+        android:gravity="center"
+        android:textSize="@dimen/size_title_login"
+        android:textColor="@color/icons"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/edt_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_edt_username"
+        android:hint="@string/username"
+        android:textColorHint="@color/icons"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/primary_text"
+        />
+
+    <EditText
+        android:id="@+id/edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/marginTop_edt_password"
+        android:hint="@string/password"
+        android:textColorHint="@color/icons"
+        android:inputType="textPassword"
+        android:textColor="@color/primary_text"/>
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop_btn_login"
+        android:background="@drawable/btn_custom"
+        android:text="@string/login"
+        android:textColor="@color/icons"
+        />
+
+    <Button
+        android:id="@+id/btn_createAccount"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/button_height"
+        android:layout_marginTop="@dimen/marginTop_btn_createAccount"
+        android:background="@drawable/btn_custom"
+        android:text="@string/createAccount"
+        android:textColor="@color/icons"
+        />
+
+</LinearLayout>
